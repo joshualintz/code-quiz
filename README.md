@@ -1,7 +1,7 @@
 # code-quiz
 
 ## Sample Demo
-<a href="https://joshualintz.github.io/code-quiz/"><img width="728" src="./assets/04-web-apis-homework-demo.gif" alt="Demo"></a>
+<a href="https://joshualintz.github.io/code-quiz/"><img width="728" src="./assets/images/04-web-apis-homework-demo.gif" alt="Demo"></a>
 
 ## Links
 * Live Site: Coming Soon!

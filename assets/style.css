@@ -30,6 +30,7 @@ body {
 }
 
 a {
+    color: var(--secondary-color);
     position: absolute;
     top: 8px;
     left: 16px;
@@ -164,8 +165,8 @@ input {
 }
 
 
-        /* Start media queries */
-        /* A Media Query max-width: 786px */
+/* Start media queries */
+/* A Media Query max-width: 786px */
 @media screen and (max-width: 786px) {
     /* Resized content to fit 786px  */
         body {
@@ -194,7 +195,7 @@ input {
         }
     }
         
-    /* A Media Query max-width: 640px */
+/* A Media Query max-width: 640px */
     @media screen and (max-width: 640px) {
      /* Resized content to fit 640px  */
      body {
