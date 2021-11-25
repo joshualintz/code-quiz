@@ -4,7 +4,7 @@
 <a href="https://joshualintz.github.io/code-quiz/"><img width="728" src="./assets/images/04-web-apis-homework-demo.gif" alt="Demo"></a>
 
 ## Links
-* Live Site: Coming Soon!
+* Live Site: https://joshualintz.github.io/code-quiz/
 * Code Repo: https://github.com/joshualintz/code-quiz
 
 ## Built With
