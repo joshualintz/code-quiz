@@ -1,5 +1,3 @@
-
-// Var with array and object for questions 
 var questions = [
     {
         title: "Commonly used data types DO NOT include:",
@@ -28,12 +26,10 @@ var questions = [
     },
 
 ];
-// Declared variables
+
 var score = 0;
 var questionIndex = 0;
 
-// Start working code 
-// Declared variables
 var currentTime = document.querySelector("#currentTime");
 var timer = document.querySelector("#startTime");
 var questionsDiv = document.querySelector("#questionsDiv");
@@ -66,7 +62,7 @@ timer.addEventListener("click", function () {
     render(questionIndex);
 });
 
-// Renders questions and choices to page: 
+// Renders questions and choices to page
 function render(questionIndex) {
     // Clears existing data 
     questionsDiv.innerHTML = "";
@@ -78,7 +74,7 @@ function render(questionIndex) {
         var userChoices = questions[questionIndex].choices;
         questionsDiv.textContent = userQuestion;
     }
-    // New for each for question choices
+
     userChoices.forEach(function (newItem) {
         var listItem = document.createElement("li");
         listItem.textContent = newItem;
@@ -194,7 +190,7 @@ function allDone() {
             allScores.push(finalScore);
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
-            // Travels to final page
+            
             window.location.replace("./high-scores.html");
         }
     });
