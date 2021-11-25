@@ -40,7 +40,7 @@ var questionsDiv = document.querySelector("#questionsDiv");
 var wrapper = document.querySelector("#wrapper");
 
 // Seconds left is 15 seconds per question:
-var secondsLeft = 76;
+var secondsLeft = 75;
 // Holds interval time
 var holdInterval = 0;
 // Holds penalty time
@@ -54,7 +54,7 @@ timer.addEventListener("click", function () {
     if (holdInterval === 0) {
         holdInterval = setInterval(function () {
             secondsLeft--;
-            currentTime.textContent = "Time: " + secondsLeft;
+            currentTime.textContent = "Time Left: " + secondsLeft;
 
             if (secondsLeft <= 0) {
                 clearInterval(holdInterval);
@@ -195,7 +195,7 @@ function allDone() {
             var newScore = JSON.stringify(allScores);
             localStorage.setItem("allScores", newScore);
             // Travels to final page
-            window.location.replace("./HighScores.html");
+            window.location.replace("./high-scores.html");
         }
     });
 

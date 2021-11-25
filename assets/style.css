@@ -119,6 +119,10 @@ li:hover {
     text-decoration: none;
 }
 
+#goBack:hover {
+    background-color: var(--secondary-color);
+}
+
 #clear {
     background-color: var(--primary-color);
     position: relative;
@@ -128,6 +132,10 @@ li:hover {
     top: 30%;
     right: 5%;
     text-align: center;
+}
+
+#clear:hover {
+    background-color: var(--secondary-color);
 }
 
 button {
@@ -154,10 +162,6 @@ input {
 #createDiv {
     margin-top: 20px;
 }
-
-
-
-
 
 
         /* Start media queries */
